@@ -15,4 +15,4 @@ I try to collect some information about different animals. The goal of this webs
 
 ## Birds
 
-## Reptilien
+## Reptiles
