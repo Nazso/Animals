@@ -3,6 +3,13 @@
     margin: 0;
 }
 
+body {
+    background: url(/Assets/backgrounds/home-background.jpg);
+    background-size: cover;
+}
+
+/*Header style*/
+
 header {
     background-color: rgb(86, 140, 241);
     height: 60px;
@@ -13,12 +20,19 @@ header a {
     color: beige;
     text-decoration: none;
     font-size: 20px;
-    padding-left: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 header a:first-child {
-    color: rgb(234, 149, 118);
+    color: rgb(241, 144, 16);
     font-size: 30px;
+}
+
+.hovered:hover {
+    background-color: brown;
+    color: azure;
+    border-radius: 5px;
 }
 
 header div img {
@@ -29,4 +43,120 @@ header div img {
     top: 0;
     right: 20px;
     padding: 5px;
+}
+
+/*Body style*/
+
+main {
+    width: 1300px;
+    margin: auto;
+    padding: 10px;
+    border-left: 5px double blue;
+    border-right: 5px double blue;
+    /* border: 3px solid blue; */
+    /* border-radius: 5px; */
+}
+
+.container {
+    position: relative;
+    width: 1000px;
+    height: 1000px;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin: 10px auto;
+    background-color: rgba(0, 255, 255, .1);
+}
+
+.container-text {
+    width: 1000px;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: justify;
+    background-color: rgba(0, 255, 255, .1);
+    border-radius: 5px;
+}
+
+.container-text p {
+    padding: 10px;
+    display: inline-block;
+    width: 33%;
+    text-align: justify;
+}
+
+.container-inside {
+    position: absolute;
+    top:  400px;
+    left: 400px;
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: rgba(92, 93, 93, 0.5);
+    background-image: radial-gradient(rgb(161, 160, 160), rgb(38, 37, 37));
+    /* margin: auto; */
+}
+
+.container-inside p {
+    text-align: center;
+    margin-top: 35px;
+    /* margin: auto; */
+    padding-top: 35px;
+    font-size: 30px;
+    color: brown;
+}
+
+/*Images*/
+
+.container img {
+    width: 280px;
+    height: 220px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px rgb(110, 110, 110);
+}
+
+.container img:first-child {
+    position: relative;
+    top: 30px;
+    left: 365px;
+}
+
+.container img:nth-child(2) {
+    position: relative;
+    top: 260px;
+    left: 368px;
+}
+
+.container img:nth-child(3) {
+    position: relative;
+    top: 260px;
+    left: -490px;
+}
+
+.container img:nth-child(4) {
+    position: relative;
+    top: 290px;
+    left: 78px;
+}
+
+.container img:nth-child(5) {
+    position: relative;
+    top: 290px;
+    left: 368px;
+}
+
+.container img:nth-child(6) {
+    position: relative;
+    top: 520px;
+    left: -201px;
+}
+
+/*Footer*/
+
+footer {
+    background-color: black;
+    color: white;
+    font-size: x-large;
+    text-align: center;
+    padding: 20px;
 }
