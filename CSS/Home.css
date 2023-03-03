@@ -3,10 +3,10 @@
     margin: 0;
 }
 
-body {
+/* body {
     background: url(/Assets/backgrounds/home-background.jpg);
     background-size: cover;
-}
+} */
 
 /*Header style*/
 
@@ -48,11 +48,17 @@ header div img {
 /*Body style*/
 
 main {
+    background: url(/Assets/backgrounds/home-background.jpg);
+    background-size: cover;
+
+}
+
+section {
     width: 1300px;
     margin: auto;
     padding: 10px;
-    border-left: 5px double blue;
-    border-right: 5px double blue;
+    border-left: 5px double rgb(86, 140, 241);
+    border-right: 5px double rgb(86, 140, 241);
     /* border: 3px solid blue; */
     /* border-radius: 5px; */
 }

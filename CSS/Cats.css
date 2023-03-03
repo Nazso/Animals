@@ -3,6 +3,11 @@
     margin: 0;
 }
 
+body {
+    background-image: url(/Assets/backgrounds/cat-background.jpg);
+    background-size: cover;
+}
+
 header {
     background-color: rgb(86, 140, 241);
     height: 60px;
@@ -13,12 +18,19 @@ header a {
     color: beige;
     text-decoration: none;
     font-size: 20px;
-    padding-left: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 header a:first-child {
-    color: rgb(234, 149, 118);
+    color: rgb(241, 144, 16);
     font-size: 30px;
+}
+
+.hovered:hover {
+    background-color: brown;
+    color: azure;
+    border-radius: 5px;
 }
 
 header div img {
@@ -29,4 +41,14 @@ header div img {
     top: 0;
     right: 20px;
     padding: 5px;
+}
+
+/*Footer*/
+
+footer {
+    background-color: black;
+    color: white;
+    font-size: x-large;
+    text-align: center;
+    padding: 20px;
 }
