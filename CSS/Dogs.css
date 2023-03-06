@@ -58,8 +58,39 @@ section {
     /* border-radius: 5px; */
 }
 
+details {
+    width: 500px;
+    margin: auto;
+    border: 2px solid brown;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+details ul li {
+    list-style: none;
+    padding: 5px;
+    display: flex;
+    justify-content:space-between;
+    align-content:center;
+    width: 350px;
+}
+
+details ul li a {
+    text-decoration: none;
+    height: 20px;
+    padding-top: 7px;
+}
+
+details ul li img {
+    width: 50px;
+    border-radius: 50%;
+
+}
+
 .container-text {
-    width: 1000px;
+    width: 90%;
     margin: 20px auto;
     padding: 10px;
     text-align: justify;
@@ -79,13 +110,13 @@ section {
 
 
 .cards {
-    width: 80%;
+    width: 90%;
     margin: 10px auto;
     padding: 10px;
     /* text-align: center; */
     border: 2px solid brown;
     border-radius: 5px;
-    background-color: rgba(233, 162, 22, 0.1);
+    background-color: rgba(94, 92, 90, 0.6);
 }
 
 .cards-content {
