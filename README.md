@@ -6,7 +6,6 @@ I try to collect some information about different animals. The goal of this webs
 - CSS
 
 # Pages
-
 ## Home
 
 ## Dogs
