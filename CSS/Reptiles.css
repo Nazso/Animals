@@ -3,9 +3,9 @@
     margin: 0;
 }
 
-body {
+/* body {
     background-image: url(/Assets/backgrounds/reptile-background.jpg);
-}
+} */
 
 header {
     background-color: rgb(86, 140, 241);
@@ -40,6 +40,40 @@ header div img {
     top: 0;
     right: 20px;
     padding: 5px;
+}
+
+/*body style*/
+
+main {
+    background-image: url(/Assets/backgrounds/reptile-background.jpg);
+    /* background-size: cover; */
+}
+
+section {
+    width: 1300px;
+    margin: auto;
+    padding: 10px;
+    border-left: 5px double rgb(86, 140, 241);
+    border-right: 5px double rgb(86, 140, 241);
+    /* border: 3px solid blue; */
+    /* border-radius: 5px; */
+}
+
+.container-text {
+    width: 90%;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: justify;
+    background-color: rgba(94, 92, 90, 0.6);
+    border-radius: 5px;
+}
+
+.container-text p {
+    padding: 10px;
+    display: inline-block;
+    width: 49%;
+    text-align: justify;
+    font-size: 20px;
 }
 
 /*Footer*/
