@@ -66,6 +66,7 @@ details {
     padding: 10px;
     font-size: 20px;
     cursor: pointer;
+    background-color: rgba(94, 92, 90, 0.6);
 }
 
 details ul li {
