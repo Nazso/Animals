@@ -43,7 +43,8 @@ header div img {
 
 main {
     background-image: url(/Assets/backgrounds/cat-background.jpg);
-    background-size: cover;
+    background-size:contain;
+    
 }
 
 section {
@@ -56,12 +57,44 @@ section {
     /* border-radius: 5px; */
 }
 
+details {
+    width: 500px;
+    margin: auto;
+    border: 2px solid brown;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: rgba(202, 154, 106, 0.6);
+}
+
+details ul li {
+    list-style: none;
+    padding: 5px;
+    display: flex;
+    justify-content:space-between;
+    align-content:center;
+    width: 350px;
+}
+
+details ul li a {
+    text-decoration: none;
+    height: 20px;
+    padding-top: 7px;
+}
+
+details ul li img {
+    width: 50px;
+    border-radius: 50%;
+
+}
+
 .container-text {
     width: 90%;
     margin: 20px auto;
     padding: 10px;
     /* text-align: justify; */
-    background-color: rgba(94, 92, 90, 0.6);
+    background-color: rgba(202, 154, 106, 0.6);
     border-radius: 5px;
 }
 
@@ -71,6 +104,49 @@ section {
     width: 49%;
     text-align: justify;
     font-size: 20px;
+}
+
+/*Cards style*/
+
+.cards {
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+    /* text-align: center; */
+    border: 2px solid brown;
+    border-radius: 5px;
+    background-color: rgba(202, 154, 106, 0.6);
+}
+
+.cards-content {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.cards img {
+    width: 400px;
+    border-radius: 3px;
+}
+
+.cards h3 {
+    margin: 10px 10px 10px 0;
+    /* padding: 10px; */
+}
+
+.cards ul {
+    padding: 0;
+}
+
+.cards ul li {
+    list-style: none;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.cards-text {
+    max-width: 40%;
+    text-align: justify;
 }
 
 /*Footer*/
