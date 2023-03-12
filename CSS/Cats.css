@@ -60,7 +60,7 @@ section {
     width: 90%;
     margin: 20px auto;
     padding: 10px;
-    text-align: justify;
+    /* text-align: justify; */
     background-color: rgba(94, 92, 90, 0.6);
     border-radius: 5px;
 }

@@ -92,7 +92,7 @@ details ul li img {
     width: 1000px;
     margin: 20px auto;
     padding: 10px;
-    text-align: justify;
+    /* text-align: justify; */
     background-color: rgba(233, 162, 22, 0.1);
     border-radius: 5px;
 }
