@@ -6,6 +6,9 @@ I try to collect some information about different animals. The goal of this webs
 - CSS
 
 # Pages
+
+On pages can be found some information about some animals.
+
 ## Home
 
 ## Dogs
