@@ -57,6 +57,10 @@ section {
     /* border-radius: 5px; */
 }
 
+#cards-list {
+    width: 800px;
+}
+
 details {
     width: 500px;
     margin: auto;
