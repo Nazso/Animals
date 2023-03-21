@@ -5,6 +5,7 @@ I try to collect some information about different animals. The goal of this webs
 - HTML
 - CSS
 - Javascript
+- JSON-server
 
 # Pages
 
