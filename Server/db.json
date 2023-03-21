@@ -1,5 +1,29 @@
 {
-    "birds":[],
+    "birds":[
+        {
+            "id": 1,
+            "title": "Ruby-throated Hummingbird",
+            "img": "../Assets/birds/Ruby-throated_Hummingbird.jpg",
+            "Kingdom": "Animalia",
+            "Phylum": "Chordata",
+            "Class": "Aves",
+            "Clade": "Strisores",
+            "Order": "Apodiformes",
+            "Family": "Trochilidae",
+            "Genus": "Archilochus",
+            "Species": "A. colubris",
+            "pOne": "The ruby-throated hummingbird (Archilochus colubris) is a species of hummingbird that generally spends the winter in Central America, Mexico, and Florida, and migrates to Canada and other
+                    parts of Eastern North America for the summer to breed. It is by far the most common
+                    hummingbird seen east of the Mississippi River in North America.",
+            "pTwo": "The species is sexually dimorphic. The adult male has a gorget (throat patch) of iridescent ruby
+                    red bordered narrowly with velvety black on the upper margin and a forked black tail with a faint violet
+                    sheen. The red iridescence is highly directional and appears dull black from many angles. The female has a notched tail
+                    with outer feathers banded in green, black, and white and a white throat that may be plain or lightly marked with dusky
+                    streaks or stipples. Males are smaller than females and have slightly shorter bills. Juvenile males resemble adult females,
+                    though usually with heavier throat markings. The plumage is molted once a year on the wintering grounds, beginning
+                    in early fall and ending by late winter."
+        }
+    ],
     "cats":[],
     "dogs":[],
     "repitels":[]
