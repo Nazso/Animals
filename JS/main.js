@@ -1,4 +1,5 @@
 const cardElements = document.getElementById('cards-list');
+const detailsElements = document.getElementById('details-data');
 const URL_BIRDS = "http://localhost:3000/birds";
 
 getBirds = async() => {
@@ -22,17 +23,39 @@ getBirds = async() => {
 renderBirds = (list) => {
     list.forEach((elem) => {
         const divEl = `
-            <article>
-                <h3></h3>
-                <div>
-                    <img src="">
+            <article class="${elem.class}" id="${elem.cardId}">
+                <h3>${elem.title}</h3>
+                <div class="${elem.classConten}">
+                    <img src="${elem.img}" alt="photo of ${elem.title}">
                     <ul>
-                    
+                        <li><strong>Kingdom: </strong> ${elem.Kingdom}</li>
+                        <li><strong>Phylum: </strong> ${elem.Phylum}</li>
+                        <li><strong>Class: </strong> ${elem.Class}</li>
+                        <li><strong>Clade: </strong> ${elem.Clade}</li>
+                        <li><strong>Order: </strong> ${elem.Order}</li>
+                        <li><strong>Family: </strong> ${elem.Family}</li>
+                        <li><strong>Genus: </strong> ${elem.Genus}</li>
+                        <li><strong>Species: </strong> ${elem.Species}</li>
                     </ul>
+                    <div class="${elem.classText}">
+                        <p>${elem.pOne}</p>
+                        <p>
+                            <h3>Description: </h3>
+                            ${elem.pTwo}
+                        </p>
+                    </div>
                 </div>
             </article>
         `
+        const detailsEl = `
+            <li>
+            <a href="#${elem.cardId}">${elem.title}</a>
+            <img src="${elem.img}" alt="photo of ${elem.title}">
+            </li>
+        `
         cardElements.innerHTML += divEl;
+        detailsElements.innerHTML += detailsEl;
+
     })
 
 };
@@ -46,6 +69,8 @@ getBirds()
 
 
 
+
+//html - card v_1
 
     // <article class="cards" id="hbird">
     //             <h3>Ruby-throated Hummingbird</h3>
