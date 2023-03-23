@@ -37,6 +37,25 @@
             "Species": "P. domesticus",
             "pOne": "The house sparrow (Passer domesticus) is a bird of the sparrow family Passeridae, found in most parts of the world. It is a small bird that has a typical length of 16 cm (6.3 in) and a mass of 24–39.5 g (0.85–1.39 oz). Females and young birds are coloured pale brown and grey, and males have brighter black, white, and brown markings. One of about 25 species in the genus Passer, the house sparrow is native to most of Europe, the Mediterranean Basin, and a large part of Asia. Its intentional or accidental introductions to many regions, including parts of Australasia, Africa, and the Americas, make it the most widely distributed wild bird.",
             "pTwo": "In mass, the house sparrow ranges from 24 to 39.5 g (0.85 to 1.39 oz). Females usually are slightly smaller than males. The median mass on the European continent for both sexes is about 30 g (1.1 oz), and in more southerly subspecies is around 26 g (0.92 oz). Younger birds are smaller, males are larger during the winter, and females are larger during the breeding season. Birds at higher latitudes, colder climates, and sometimes higher altitudes are larger (under Bergmann's rule), both between and within subspecies."
+        },
+        {
+            "id": 3,
+            "class": "cards",
+            "classConten": "cards-content",
+            "classText": "cards-text",
+            "cardId": "sparrow",
+            "title": "House sparrow",
+            "img": "../Assets/birds/House sparrow.jpg",
+            "Kingdom": "Animalia",
+            "Phylum": "Chordata",
+            "Class": "Aves",
+            "Clade": "Strisores",
+            "Order": "Passeriformes",
+            "Family": "Passeridae",
+            "Genus": "Passer",
+            "Species": "P. domesticus",
+            "pOne": "The house sparrow (Passer domesticus) is a bird of the sparrow family Passeridae, found in most parts of the world. It is a small bird that has a typical length of 16 cm (6.3 in) and a mass of 24–39.5 g (0.85–1.39 oz). Females and young birds are coloured pale brown and grey, and males have brighter black, white, and brown markings. One of about 25 species in the genus Passer, the house sparrow is native to most of Europe, the Mediterranean Basin, and a large part of Asia. Its intentional or accidental introductions to many regions, including parts of Australasia, Africa, and the Americas, make it the most widely distributed wild bird.",
+            "pTwo": "In mass, the house sparrow ranges from 24 to 39.5 g (0.85 to 1.39 oz). Females usually are slightly smaller than males. The median mass on the European continent for both sexes is about 30 g (1.1 oz), and in more southerly subspecies is around 26 g (0.92 oz). Younger birds are smaller, males are larger during the winter, and females are larger during the breeding season. Birds at higher latitudes, colder climates, and sometimes higher altitudes are larger (under Bergmann's rule), both between and within subspecies."
         }
     ],
     "cats":[],
