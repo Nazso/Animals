@@ -153,7 +153,42 @@
             "pTwo": " Adult wild turkeys have long reddish-yellow to grayish-green legs. The body feathers are generally blackish and dark, sometimes grey brown overall with a coppery sheen that becomes more complex in adult males. Adult males, called toms or gobblers, have a large, featherless, reddish head, red throat, and red wattles on the throat and neck. The head has fleshy growths called caruncles. Juvenile males are called jakes; the difference between an adult male and a juvenile is that the jake has a very short beard and his tail fan has longer feathers in the middle. The adult male's tail fan feathers will be all the same length.[2] When males are excited, a fleshy flap on the bill (called a snood) expands, and this, the wattles and the bare skin of the head and neck all become engorged with blood. Each foot has three toes in front, with a shorter, rear-facing toe in back; males have a spur behind each of their lower legs."
         }
     ],
-    "cats":[],
+    "cats":[
+        {
+            "id": 1,
+            "class": "cards",
+            "classConten": "cards-content",
+            "classText": "cards-text",
+            "cardId": "aegean",
+            "title": "Aegean Island Cat",
+            "img": "../Assets/cats/Aegean_Island_Cat.jpg",
+            "Breed": "Aegean",
+            "LocationOfOrigin": "Greece",
+            "Type": "Natural",
+            "BodyType": "Moderate",
+            "CoatTypeAndLength": "Semi-long",
+            "CoatPattern": "Multi-color",
+            "pOne": "Aegean cats (Greek: γάτα του Αιγαίου gáta tou Aigaíou) are a naturally occurring landrace of domestic cat originating from the Cycladic Islands of Greece and western Turkey. It is considered a natural cat, developing without human interference. Development of the Aegean cat as a formal breed began in the early 1990s by breeders in the fledgling Greek cat fancy, but the variety has yet to be recognized by any major fancier and breeder organization. It is considered to be the only native Greek variety of cat.",
+            "pTwo": "Aegean cats are a medium-sized, muscular, semi-longhaired cat.[dubious – discuss] The coat is bicolour or tricolour with one of the colours being almost always white. White usually takes up between 1/4 to 9/10 of the body. The colour of their coat might include many other colours and patterns. Their paws are medium in size and have a round shape. Their tail can be long and 'hooked'. The ears have a wide base and rounded tips and are covered by hair. The eyes have an almond shape and their color can be any shade of green, blue and yellow. Aegean cats are noted for their affinity for water and fishing. Because the breed was allowed to develop through natural selection, rather than selective breeding, Aegean cats are free from most feline genetic diseases."
+        },
+        {
+            "id": 2,
+            "class": "cards",
+            "classConten": "cards-content",
+            "classText": "cards-text",
+            "cardId": "American-Bobtail",
+            "title": "American Bobtail",
+            "img": "../Assets/cats/American_bobtail.jpg",
+            "Breed": "American Bobtail",
+            "LocationOfOrigin": "the United States",
+            "Type": "Mutation",
+            "BodyType": "Cobby",
+            "CoatTypeAndLength": "Semi-long",
+            "CoatPattern": "All",
+            "pOne": "The American Bobtail is an uncommon breed of domestic cat which was developed in the late 1960s. It is most notable for its stubby 'bobbed' tail about one-third to one-half the length of a normal cat's tail. This is the result of a cat body type genetic mutation affecting the tail development, similar to that of a Manx cat. The breed is not related to the Japanese Bobtail despite the similar name and physical type—the breeding programs are entirely unrelated, and the genetic mutation causing the bobbed tail are known to be different because the mutation causing the American Bobtail's tail is dominant, whereas the Japanese Bobtail tail mutation is recessive.",
+            "pTwo": "Urban legend says that Bobtails are the result of a cross breeding between a domestic tabby cat and a wild bobcat. The unusual tail is actually the result of a random spontaneous genetic mutation within the domestic cat population, and may be related to the Manx gene, which is also dominant. Yodie, a short-tailed brown tabby male, was mated with a seal-point Siamese female to create the American Bobtail's original bloodline. Most of the early bloodlines have died out. This cat's original appearance genetics were modified in the breed to form a new and improved strain which comes in essentially all colors and coat types. The breed was first recognized by The International Cat Association (TICA, US-based), in 1989. The breed has been accepted for championship competition by TICA, the Cat Fanciers' Association (CFA, also US-based) and the American Cat Fanciers Association (ACFA)."
+        }
+    ],
     "dogs":[],
     "repitels":[]
 }
