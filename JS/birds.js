@@ -22,11 +22,46 @@ getBirds = async() => {
 
 renderBirds = (list) => {
     list.forEach((elem) => {
-        const divEl = `
-            <article class="${elem.class}" id="${elem.cardId}">
-                <h3>${elem.title}</h3>
-                <div class="${elem.classConten}">
-                    <img src="${elem.img}" alt="photo of ${elem.title}">
+        
+        if(list.indexOf(elem) === 0 || list.indexOf(elem) % 2 === 0) {
+            const divEl = `
+                <article class="${elem.class}" id="${elem.cardId}">
+                    <h3>${elem.title}</h3>
+                    <div class="${elem.classConten}">
+                        <img src="${elem.img}" alt="photo of ${elem.title}">
+                        <ul>
+                            <li><strong>Kingdom: </strong> ${elem.Kingdom}</li>
+                            <li><strong>Phylum: </strong> ${elem.Phylum}</li>
+                            <li><strong>Class: </strong> ${elem.Class}</li>
+                            <li><strong>Clade: </strong> ${elem.Clade}</li>
+                            <li><strong>Order: </strong> ${elem.Order}</li>
+                            <li><strong>Family: </strong> ${elem.Family}</li>
+                            <li><strong>Genus: </strong> ${elem.Genus}</li>
+                            <li><strong>Species: </strong> ${elem.Species}</li>
+                        </ul>
+                        <div class="${elem.classText}">
+                            <p>${elem.pOne}</p>
+                            <p>
+                                <h3>Description: </h3>
+                                ${elem.pTwo}
+                            </p>
+                        </div>
+                    </div>
+                </article>
+            `
+            cardElements.innerHTML += divEl;
+        } else {
+            const divEl = `
+                <article class="${elem.class}" id="${elem.cardId}">
+                    <h3>${elem.title}</h3>
+                    <div class="${elem.classConten}">
+                    <div class="${elem.classText}">
+                        <p>${elem.pOne}</p>
+                        <p>
+                            <h3>Description: </h3>
+                            ${elem.pTwo}
+                        </p>
+                    </div>
                     <ul>
                         <li><strong>Kingdom: </strong> ${elem.Kingdom}</li>
                         <li><strong>Phylum: </strong> ${elem.Phylum}</li>
@@ -37,23 +72,18 @@ renderBirds = (list) => {
                         <li><strong>Genus: </strong> ${elem.Genus}</li>
                         <li><strong>Species: </strong> ${elem.Species}</li>
                     </ul>
-                    <div class="${elem.classText}">
-                        <p>${elem.pOne}</p>
-                        <p>
-                            <h3>Description: </h3>
-                            ${elem.pTwo}
-                        </p>
+                        <img src="${elem.img}" alt="photo of ${elem.title}">
                     </div>
-                </div>
-            </article>
-        `
+                </article>
+            `
+            cardElements.innerHTML += divEl;
+        }
         const detailsEl = `
             <li>
             <a href="#${elem.cardId}">${elem.title}</a>
             <img src="${elem.img}" alt="photo of ${elem.title}">
             </li>
         `
-        cardElements.innerHTML += divEl;
         detailsElements.innerHTML += detailsEl;
 
     })
