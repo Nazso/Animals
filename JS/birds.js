@@ -22,7 +22,7 @@ getBirds = async() => {
 
 renderBirds = (list) => {
     list.forEach((elem) => {
-        
+
         if(list.indexOf(elem) === 0 || list.indexOf(elem) % 2 === 0) {
             const divEl = `
                 <article class="${elem.class}" id="${elem.cardId}">
@@ -118,28 +118,11 @@ getBirds()
     //                 </ul>
     //                 <div class="cards-text">
     //                     <p>
-    //                         The ruby-throated hummingbird (Archilochus colubris) is a species of hummingbird that
-    //                         generally
-    //                         spends the winter in Central America, Mexico, and Florida, and migrates to Canada and other
-    //                         parts of Eastern North America for the summer to breed. It is by far the most common
-    //                         hummingbird
-    //                         seen east of the Mississippi River in North America.
+    //                         The ruby-throated .....
     //                     </p>
     //                     <p>
     //                         <h3>Description</h3>
-    //                         The species is sexually dimorphic. The adult male has a gorget (throat patch) of iridescent ruby
-    //                         red bordered
-    //                         narrowly with velvety black on the upper margin and a forked black tail with a faint violet
-    //                         sheen. The red iridescence
-    //                         is highly directional and appears dull black from many angles. The female has a notched tail
-    //                         with outer feathers banded
-    //                         in green, black, and white and a white throat that may be plain or lightly marked with dusky
-    //                         streaks or stipples. Males
-    //                         are smaller than females and have slightly shorter bills. Juvenile males resemble adult females,
-    //                         though usually with
-    //                         heavier throat markings. The plumage is molted once a year on the wintering grounds, beginning
-    //                         in early fall and
-    //                         ending by late winter.
+    //                         The ......
     //                     </p>
     //                 </div>
     //             </div>
