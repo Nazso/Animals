@@ -189,6 +189,24 @@
             "pTwo": "Urban legend says that Bobtails are the result of a cross breeding between a domestic tabby cat and a wild bobcat. The unusual tail is actually the result of a random spontaneous genetic mutation within the domestic cat population, and may be related to the Manx gene, which is also dominant. Yodie, a short-tailed brown tabby male, was mated with a seal-point Siamese female to create the American Bobtail's original bloodline. Most of the early bloodlines have died out. This cat's original appearance genetics were modified in the breed to form a new and improved strain which comes in essentially all colors and coat types. The breed was first recognized by The International Cat Association (TICA, US-based), in 1989. The breed has been accepted for championship competition by TICA, the Cat Fanciers' Association (CFA, also US-based) and the American Cat Fanciers Association (ACFA)."
         }
     ],
-    "dogs":[],
+    "dogs":[
+        {
+            "id": 1,
+            "class": "cards",
+            "classConten": "cards-content",
+            "classText": "cards-text",
+            "cardId": "",
+            "title": "",
+            "img": "../Assets/cats/Aegean_Island_Cat.jpg",
+            "Breed": "",
+            "LocationOfOrigin": "",
+            "Type": "",
+            "BodyType": "",
+            "CoatTypeAndLength": "",
+            "CoatPattern": "",
+            "pOne": "",
+            "pTwo": ""
+        }
+    ],
     "repitels":[]
 }
