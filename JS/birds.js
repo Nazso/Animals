@@ -2,7 +2,7 @@ const cardElements = document.getElementById('cards-list');
 const detailsElements = document.getElementById('details-data');
 const URL_BIRDS = "http://localhost:3000/birds";
 
-getBirds = async() => {
+const getBirds = async() => {
 
     const headers = new Headers({
         'Content-Type': 'application/json'
@@ -20,7 +20,7 @@ getBirds = async() => {
 
 };
 
-renderBirds = (list) => {
+const renderBirds = (list) => {
     list.forEach((elem) => {
 
         if(list.indexOf(elem) === 0 || list.indexOf(elem) % 2 === 0) {

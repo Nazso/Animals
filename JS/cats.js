@@ -2,7 +2,7 @@ const cardElements = document.getElementById('cards-list');
 const detailsElements = document.getElementById('details-data');
 const URL_CATS = "http://localhost:3000/cats";
 
-getCats = async() => {
+const getCats = async() => {
 
     const headers = new Headers({
         'Content-Type': 'application/json'
@@ -20,7 +20,7 @@ getCats = async() => {
 
 }
 
-renderCats = (list) => {
+const renderCats = (list) => {
 
     list.forEach((elem) => {
 
