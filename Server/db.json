@@ -222,10 +222,29 @@
             "WeightFemale": "females 5.0-10.9 kg (11-24 lb)",
             "Coat": "long double coat",
             "Color": "sable, mahogany- or shaded sable",
-            "LIfeSpan": "12-18 years (average)",
+            "LifeSpan": "12-18 years (average)",
             "pOne": "The Shetland Sheepdog, often known as the Sheltie, is a breed of herding dog that originated in the Shetland Islands of Scotland. The original name was Shetland Collie, but this caused controversy amongst Rough Collie breeders of the time, so the breed's name was formally changed.[2] This diligent small dog is clever, vocal, excitable and willing to please. They are incredibly trustworthy to their owners to the point where they are often referred to as 'shadows' due to their attachment to family. This breed was formally recognized by The Kennel Club (UK) in 1909.",
             "pTwo": "The general appearance of the Sheltie is that of a miniature Rough Collie. They are a small, double coated, working dog, agile and sturdy. Blue merle Shelties may have blue eyes or one brown and one blue eye, but all others have dark-colored eyes. Their expression should be that of alertness with a gentle and sometimes reserved nature. They are often very good with children. They carry their tail down low, only lifted when alert and never carried over the back. They are an intensely loyal breed, sometimes reserved with strangers but should not be shy or showing timidness as per the AKC breed standard."
         }
     ],
-    "repitels":[]
+    "reptiles":[
+        {   
+            "id": 1,
+            "class": "cards",
+            "classConten": "cards-content",
+            "classText": "cards-text",
+            "cardId": "",
+            "title": "",
+            "img": "../Assets/Dogs/Border_Collie.jpg",
+            "HeightMale": "",
+            "HeightFemale": "",
+            "WeightMale": "",
+            "WeightFemale": "",
+            "Coat": "",
+            "Color": "",
+            "LIfeSpan": "",
+            "pOne": "",
+            "pTwo": ""
+        }
+    ]
 }
