@@ -10,7 +10,10 @@
 header {
     background-color: rgb(86, 140, 241);
     height: 60px;
+    width: 100%;
     padding: 10px;
+    position: fixed;
+    z-index: 1;
 }
 
 header a {
@@ -46,6 +49,7 @@ header div img {
 
 main {
     background-image: url(/Assets/backgrounds/dog-background.jpg);
+    padding-top: 60px;
 }
 
 section {
